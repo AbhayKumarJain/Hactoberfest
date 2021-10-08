@@ -1,0 +1,16 @@
+//hacktoberfest-accepted
+//Swap numbers
+#include<stdio.h>
+int main() {
+  int i,j,temp;
+  printf("Enter 1st no.: ");
+  scanf("%d", &i);
+  printf("Enter 2nd no.: ");
+  scanf("%d", &j);
+  temp = i;
+  i=j;
+  j= temp;
+  printf("\nAfter swap, 1st no. = %d\n", i);
+  printf("After swap, 2nd no = %d", j);
+  return 0;
+}
