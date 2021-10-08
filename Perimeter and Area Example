@@ -1,0 +1,25 @@
+// Area and Perimeter comparison
+#include<stdio.h>
+int main()
+{
+	int L,B,Area,Peri;
+	scanf("%d\n",&L);
+	scanf("%d\n",&B);
+	Area=L*B;
+	Peri=2*(L+B);
+	if(Peri>Area)
+	{
+		printf("Peri\n");
+		printf("%d",Peri);
+	}
+	else 	if(Peri<Area)
+	{
+		printf("Area\n");
+		printf("%d",Area);
+	}
+	else
+	{
+		printf("Eq\n");
+		printf("%d",Area);
+	}
+}
